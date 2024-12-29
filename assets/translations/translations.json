@@ -1,0 +1,31 @@
+{
+	"en":{
+		"facebookButton": "Continue with Facebook",
+		"or": "OR",
+		"username_field": "Phone number, username, or email",
+		"password_field": "Password",
+		"forgotPassword": "Forgot password?",
+		"login_button": "Log in",
+		"notAccount": "Don't have an account?",
+		"signUp": "Sign up",
+		"agree": "By continuing, you agree to Instagram's",
+		"terms": "Terms of use",
+		"and": "and",
+		"privacy": "Privacy Policy"
+	},
+	"es-la":{
+		"facebookButton": "Continuar con Facebook",
+		"or": "o",
+		"username_field": "Numero de teléfono, usuario, o correo electrónico",
+		"password_field": "Contraseña",
+		"forgotPassword": "¿Has olvidado tu contraseña?",
+		"login_button": "Iniciar sesión",
+		"notAccount": "¿No tienes una cuenta?",
+		"signUp": "Crear cuenta",
+		"agree": "Al continuar, aceptas las",
+		"terms": "Condiciones de uso",
+		"and": "y",
+		"privacy": "Política de privacidad",
+		"ofInstagram":"de Instagram"
+	}	
+}
